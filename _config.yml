@@ -63,7 +63,7 @@ author:
   bio    : "Blog about Android Development and other Tech Staff. Alpha version"
   links:
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ivan-shafran/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -75,7 +75,7 @@ author:
 footer:
   links:
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ivan-shafran/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
