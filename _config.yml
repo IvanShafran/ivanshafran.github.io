@@ -16,7 +16,7 @@
 title: IShafran
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog about Android Development and other Tech Staff from Ivan Shafran.
+  Blog about Android and Tech from Ivan Shafran
 twitter_username: username
 github_username: IvanShafran
 medium_username: shafran
@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Ivan Shafran"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Blog about Android Development and other Tech Staff. Alpha version"
+  bio    : "Blog about Android and Tech"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -68,9 +68,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/IvanShafran"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/NotShafran"
 
 footer:
   links:
