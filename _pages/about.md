@@ -3,8 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-![Ivan Shafran](/assets/images/about_photo.jpg)
-
 {% include figure
    image_path="/assets/images/about_photo.jpg"
    alt="Ivan Shafran"
