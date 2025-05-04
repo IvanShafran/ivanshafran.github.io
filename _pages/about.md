@@ -3,7 +3,14 @@ permalink: /about/
 title: "About"
 ---
 
-![Ivan Shafran](/assets/images/about-photo.jpg)
+![Ivan Shafran](/assets/images/about_photo.jpg)
+
+{% include figure
+   image_path="/assets/images/about_photo.jpg"
+   alt="Ivan Shafran"
+   caption="Ivan Shafran on Mobius 2025, Mobile Tech Conference"
+   width="1280"
+   class="align-center" %}
 
 This is a blog about Android and Tech by Ivan Shafran.
 
