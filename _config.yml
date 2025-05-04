@@ -24,6 +24,9 @@ devto_username: ivanshafran
 minimal_mistakes_skin: default
 search: true
 
+url: "https://shafran.dev"
+baseurl: ""
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
