@@ -30,6 +30,20 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
+```kotlin
+// Code value - chat.toInt() returns the same, but it is deprecated
+val code = char.code
+// Digit value
+val digit = char.digitToInt() // digitToIntOrNull() for nullable result
+```
+
+{% highlight kotlin %}
+// Code value - chat.toInt() returns the same, but it is deprecated
+val code = char.code
+// Digit value
+val digit = char.digitToInt() // digitToIntOrNull() for nullable result
+{% endhighlight %}
+
 ### Char
 ```Kotlin
 // Code value - chat.toInt() returns the same, but it is deprecated
