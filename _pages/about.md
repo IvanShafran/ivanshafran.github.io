@@ -4,7 +4,7 @@ title: "About"
 ---
 
 {% include figure
-   image_path="/assets/images/about_photo.jpg"
+   image_path="/assets/images/about-photo.jpg"
    alt="Ivan Shafran"
    caption="Ivan Shafran on Mobius 2025, Mobile Tech Conference"
    width="1280"
