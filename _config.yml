@@ -21,7 +21,7 @@ twitter_username: username
 github_username: IvanShafran
 medium_username: shafran
 devto_username: ivanshafran
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 url: "https://shafran.dev"
