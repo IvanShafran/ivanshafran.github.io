@@ -20,6 +20,16 @@ The repository is open to contribution. To add the API, fork the repo and create
 
 ## Cheatsheet
 
+Test
+
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+
 ### Char
 ```Kotlin
 // Code value - chat.toInt() returns the same, but it is deprecated
