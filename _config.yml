@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: IShafran
+title: Shafran
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Blog about Android and Tech from Ivan Shafran
@@ -35,6 +35,9 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# For page previews on main page
+show_excerpts: true
 
 include:
   - _pages
