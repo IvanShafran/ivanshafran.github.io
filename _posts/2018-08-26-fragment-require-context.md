@@ -5,6 +5,7 @@ categories:
   - Tech
 tags:
   - Kotlin
+  - Java
   - Android
   - Fragment
 ---
@@ -24,7 +25,7 @@ At first sight it looks like adding more and more pain to android apps developme
 
 getContext can return null when fragment isn’t attached to its host. Let’s take a look at two examples.
 
-```Java
+```java
 @Override
 public void onResume() {
     super.onResume();
@@ -34,7 +35,7 @@ public void onResume() {
 
 First sample shows us that as long as fragment is attached to its host(in onResume for example) it’s safe to use getContext without nullability checking.
 
-```Java
+```java
 @Override
 public void onResume() {
     super.onResume();
@@ -60,7 +61,7 @@ Firstly we should fix potentials bugs.
 
 In Java:
 
-```Java
+```java
 Context context = getContext();
 if (context == null) {
     // Handle null context scenario
@@ -72,7 +73,7 @@ if (context == null) {
 
 In Kotlin:
 
-```Kotlin
+```kotlin
 val context: Context = this.context ?: return // or if block
 ```
 
@@ -82,7 +83,7 @@ Finally replace the rest with requireContext() which returns NonNull Context ins
 
 In Java:
 
-```Java
+```java
 1.
 // requireContext() does the same
 Context context = getContext();
@@ -106,7 +107,7 @@ public void onResume() {
 
 In Kotlin:
 
-```Kotlin
+```kotlin
 // It is similar to requireContext() but with NullPointerException
 val context: Context = context!!
 ```
