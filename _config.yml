@@ -75,6 +75,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/IvanShafran"
+    - label: "Telegram RU"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/wine_coding"
 
 footer:
   links:
