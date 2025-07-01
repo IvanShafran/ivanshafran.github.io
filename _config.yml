@@ -67,7 +67,7 @@ plugins:
 author:
   name   : "Ivan Shafran"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Blog about Android and Tech"
+  bio    : "Blog about Tech, Wine and Memes by Android Developer"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -84,6 +84,9 @@ footer:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ivan-shafran/"
+    - label: "Telegram RU"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/wine_coding"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/IvanShafran"
