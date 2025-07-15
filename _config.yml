@@ -67,7 +67,7 @@ plugins:
 author:
   name   : "Ivan Shafran"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Blog about Tech, Wine and Memes\n by Android Developer"
+  bio    : "Tech, Wine and Memes"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
