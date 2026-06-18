@@ -12,7 +12,7 @@ title: "About"
 
 This is a blog about Android and Tech by Ivan Shafran.
 
-Ivan Shafran is an experienced Android Developer with 10+ years of experience. He participated in projects with 100M+ monthly active users. His experience includes UI and SDK Android Development, open source, competitive programming, blogging, public speaking, teaching, and mentorship.
+Ivan Shafran is an experienced Android Developer with 10+ years of experience. He participated in projects with 100M+ monthly active users. His experience includes UI and SDK Android Development, Android app performance optimization, open source, competitive programming, blogging, public speaking, teaching, and mentorship.
 
 Ivan loves new technologies, self-development, sport (volleyball and football), cinema and computer games.
 
