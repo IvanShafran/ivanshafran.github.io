@@ -18,12 +18,17 @@ logo: "assets/images/wine-coding-88-88.png"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Blog about Android and Tech from Ivan Shafran
-twitter_username: username
 github_username: IvanShafran
 medium_username: shafran
 devto_username: ivanshafran
 minimal_mistakes_skin: dark
 search: true
+
+# Default image used for link previews (Open Graph / Twitter cards) when a
+# page doesn't set its own header image.
+og_image: "/assets/images/about-photo.jpg"
+twitter:
+  username: "NotShafran"
 
 url: "https://shafran.dev"
 baseurl: ""
