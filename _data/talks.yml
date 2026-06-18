@@ -1,0 +1,56 @@
+# Talks, newest first. Rendered as a timeline on /talks/ (see _pages/talks.md).
+# Fields: date (YYYY-MM-DD), title, url (optional), conference, lang (EN/RU).
+- date: 2025-10-23
+  title: "Mastering WebRTC for Large Conference Calls on Android"
+  url: "https://www.meetup.com/android/events/311337983/"
+  conference: "Londroid"
+  lang: "EN"
+- date: 2025-10-08
+  title: "VK Calls in the Forest: Calling in Bad Networks"
+  url: "https://vtconf.com/en/talks/adb3ff326de84a3183f73531fcdb21fd/"
+  conference: "Videotech"
+  lang: "RU"
+- date: 2025-04-10
+  title: "VK Calls in the Forest: Calling in Bad Networks"
+  url: "https://mobiusconf.com/en/archive/2025%20Spring/talks/0dfd0205fd864b8d99a8230bb3b7b063/"
+  conference: "Mobius"
+  lang: "RU"
+- date: 2024-10-07
+  title: "Micro Open Source: From Passion to Pet Project Publication"
+  url: "https://www.youtube.com/watch?v=HBLdkXFa4-A"
+  conference: "Android Worldwide"
+  lang: "EN"
+- date: 2024-06-17
+  title: "Mastering WebRTC for Large Conference Calls on Android"
+  url: "https://www.youtube.com/watch?v=1vFELtD3ue4"
+  conference: "Android Worldwide"
+  lang: "EN"
+- date: 2024-05-23
+  title: "VK Calls: Boosting WebRTC Calls Quality"
+  url: "https://www.youtube.com/watch?v=tkO6Krn9IAk"
+  conference: "Mobius"
+  lang: "RU"
+- date: 2021-12-01
+  title: "VK Calls: connecting thousands of people with Android and iOS using WebRTC"
+  url: "https://www.youtube.com/watch?v=PlOnMxWKaSY"
+  conference: "Videotech"
+  lang: "RU"
+- date: 2021-12-01
+  title: "Conversation in the studio: how video calling services have changed over the past 1.5 years"
+  url: "https://www.youtube.com/watch?v=ixoROoFsaOk"
+  conference: "Videotech"
+  lang: "RU"
+- date: 2021-11-23
+  title: "VK Calls: connecting thousands of people with Android and iOS using WebRTC"
+  url: "https://www.youtube.com/watch?v=_97j8LDmk3w"
+  conference: "Mobius"
+  lang: "RU"
+- date: 2021-06-17
+  title: "Developing backward compatible libraries in Java and Kotlin"
+  url: "https://www.youtube.com/watch?v=1oE_cwZ03E0"
+  conference: "VK Talks"
+  lang: "RU"
+- date: 2020-07-01
+  title: "Evolution of unit testing in Kotlin"
+  conference: "ABBYY Talks"
+  lang: "RU"

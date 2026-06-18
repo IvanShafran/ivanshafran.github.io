@@ -20,3 +20,115 @@ $link-color-visited: #b8636e;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// =============================================================================
+// Talks timeline — used on /talks/ (markup in _pages/talks.md, data in
+// _data/talks.yml). A single vertical wine-accent line with a dot per talk and
+// a larger marker per year.
+// =============================================================================
+
+.talks-timeline {
+  margin: 1.5em 0;
+  padding-left: 1.5em;
+  border-left: 2px solid $border-color;
+}
+
+.talks-year {
+  position: relative;
+  margin: 1.75em 0 0.85em;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: $link-color;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.5em - 8px);
+    top: 0.45em;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: $link-color;
+    border: 3px solid $background-color;
+  }
+}
+
+.talks-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.talk {
+  position: relative;
+  margin-bottom: 1.15em;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.5em - 5px);
+    top: 0.4em;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: $background-color;
+    border: 2px solid $link-color;
+  }
+}
+
+.talk-date {
+  display: block;
+  font-family: $monospace;
+  font-size: 0.75em;
+  color: $muted-text-color;
+  margin-bottom: 0.15em;
+}
+
+.talk-title {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.talk-title--plain {
+  color: $text-color;
+}
+
+.talk-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  align-items: center;
+  margin-top: 0.4em;
+}
+
+.talk-conf {
+  font-size: 0.72em;
+  color: $muted-text-color;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+.talk-lang {
+  font-size: 0.68em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+
+.lang-en {
+  background: rgba(56, 138, 221, 0.18);
+  color: #8fc0f5;
+}
+
+.lang-ru {
+  background: rgba(239, 159, 39, 0.18);
+  color: #f0c178;
+}
