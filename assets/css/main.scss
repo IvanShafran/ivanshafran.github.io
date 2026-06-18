@@ -66,12 +66,21 @@ $link-color-visited: #b8636e;
 .talk {
   position: relative;
   margin-bottom: 0.6em;
+  padding: 0.6em 0.9em;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: $link-color;
+  }
 
   &::before {
     content: "";
     position: absolute;
     left: calc(-1.5em - 5px);
-    top: 0.45em;
+    top: 1em;
     width: 9px;
     height: 9px;
     border-radius: 50%;
