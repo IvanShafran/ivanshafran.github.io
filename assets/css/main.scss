@@ -18,6 +18,10 @@ $link-color: #d06b76; // lighter wine, readable on the dark background
 $link-color-hover: #e89aa3;
 $link-color-visited: #b8636e;
 
+// Headings use the Fraunces display serif (loaded in _includes/head/custom.html);
+// body text keeps the theme's system sans-serif.
+$header-font-family: "Fraunces", Georgia, "Times New Roman", serif;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
