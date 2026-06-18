@@ -25,6 +25,11 @@ $header-font-family: "Fraunces", Georgia, "Times New Roman", serif;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// "Wine Coding" masthead title uses the Fraunces display serif too.
+.masthead .site-title {
+  font-family: $header-font-family;
+}
+
 // =============================================================================
 // Talks timeline — used on /talks/ (markup in _pages/talks.md, data in
 // _data/talks.yml). A single vertical wine-accent line with a dot per talk and
