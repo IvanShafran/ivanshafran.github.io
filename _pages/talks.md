@@ -12,9 +12,8 @@ permalink: /talks/
 <ul class="talks-list">
 {% for talk in group.items %}
 <li class="talk">
-<span class="talk-date">{{ talk.date | date: "%d %b %Y" }}</span>
 {% if talk.url %}<a class="talk-title" href="{{ talk.url }}">{{ talk.title }}</a>{% else %}<span class="talk-title talk-title--plain">{{ talk.title }}</span>{% endif %}
-<span class="talk-meta"><span class="talk-conf">{{ talk.conference }}</span><span class="talk-lang lang-{{ talk.lang | downcase }}">{{ talk.lang }}</span></span>
+<span class="talk-meta"><span class="talk-date">{{ talk.date | date: "%d %b %Y" }}</span><span class="talk-conf">{{ talk.conference }}</span><span class="talk-lang lang-{{ talk.lang | downcase }}">{{ talk.lang }}</span></span>
 </li>
 {% endfor %}
 </ul>

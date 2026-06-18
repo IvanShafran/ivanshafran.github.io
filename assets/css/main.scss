@@ -35,8 +35,8 @@ $link-color-visited: #b8636e;
 
 .talks-year {
   position: relative;
-  margin: 1.75em 0 0.85em;
-  font-size: 1.25em;
+  margin: 1.1em 0 0.55em;
+  font-size: 1.15em;
   font-weight: 700;
   color: $link-color;
 
@@ -48,9 +48,9 @@ $link-color-visited: #b8636e;
     content: "";
     position: absolute;
     left: calc(-1.5em - 8px);
-    top: 0.45em;
-    width: 13px;
-    height: 13px;
+    top: 0.4em;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background: $link-color;
     border: 3px solid $background-color;
@@ -65,13 +65,13 @@ $link-color-visited: #b8636e;
 
 .talk {
   position: relative;
-  margin-bottom: 1.15em;
+  margin-bottom: 0.6em;
 
   &::before {
     content: "";
     position: absolute;
     left: calc(-1.5em - 5px);
-    top: 0.4em;
+    top: 0.45em;
     width: 9px;
     height: 9px;
     border-radius: 50%;
@@ -81,17 +81,15 @@ $link-color-visited: #b8636e;
 }
 
 .talk-date {
-  display: block;
   font-family: $monospace;
-  font-size: 0.75em;
+  font-size: 0.72em;
   color: $muted-text-color;
-  margin-bottom: 0.15em;
 }
 
 .talk-title {
   display: inline-block;
   font-weight: 600;
-  line-height: 1.35;
+  line-height: 1.3;
 }
 
 .talk-title--plain {
@@ -101,9 +99,9 @@ $link-color-visited: #b8636e;
 .talk-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4em;
+  gap: 0.5em;
   align-items: center;
-  margin-top: 0.4em;
+  margin-top: 0.2em;
 }
 
 .talk-conf {
