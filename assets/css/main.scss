@@ -1,0 +1,22 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough).
+# Custom overrides for the "Wine Coding" brand.
+---
+
+@charset "utf-8";
+
+// =============================================================================
+// Brand overrides
+// -----------------------------------------------------------------------------
+// Minimal Mistakes skin variables are declared with `!default`, so anything we
+// set here (before the skin import) takes precedence. We keep the dark skin's
+// background/text and only swap in a wine/burgundy accent to match the logo.
+// =============================================================================
+
+$primary-color: #8c2f39; // wine / burgundy
+$link-color: #d06b76; // lighter wine, readable on the dark background
+$link-color-hover: #e89aa3;
+$link-color-visited: #b8636e;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
