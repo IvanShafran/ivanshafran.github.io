@@ -66,21 +66,12 @@ $link-color-visited: #b8636e;
 .talk {
   position: relative;
   margin-bottom: 0.6em;
-  padding: 0.6em 0.9em;
-  background: rgba(255, 255, 255, 0.035);
-  border: 1px solid $border-color;
-  border-radius: 6px;
-  transition: border-color 0.15s ease;
-
-  &:hover {
-    border-color: $link-color;
-  }
 
   &::before {
     content: "";
     position: absolute;
     left: calc(-1.5em - 5px);
-    top: 1em;
+    top: 0.45em;
     width: 9px;
     height: 9px;
     border-radius: 50%;
@@ -93,6 +84,10 @@ $link-color-visited: #b8636e;
   font-family: $monospace;
   font-size: 0.72em;
   color: $muted-text-color;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  padding: 2px 8px;
 }
 
 .talk-title {
