@@ -1,6 +1,6 @@
 main:
   - title: "Posts"
-    url: /posts/
+    url: /
   - title: "Talks"
     url: /talks/
   - title: "About"
