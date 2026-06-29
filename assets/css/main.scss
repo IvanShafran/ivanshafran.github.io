@@ -29,6 +29,80 @@ $link-color-visited: #b8636e;
 }
 
 // =============================================================================
+// Home page post grid — magazine-style cards (markup in _layouts/home.html).
+// Two columns on wider screens, a single column on phones. The author sidebar
+// is untouched (it comes from the theme's archive layout).
+// =============================================================================
+
+.post-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25em;
+  margin-top: 1em;
+
+  @media (max-width: 37.5em) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: $link-color;
+  }
+}
+
+.post-card__img img {
+  display: block;
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.post-card__body {
+  padding: 0.85em 1em 1.1em;
+}
+
+.post-card__cat {
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #f0b2b8;
+  background: rgba(208, 107, 118, 0.18);
+  border-radius: 4px;
+  padding: 1px 7px;
+}
+
+.post-card__title {
+  margin: 0.5em 0 0.3em;
+  font-size: 1.1em;
+  line-height: 1.25;
+}
+
+.post-card__meta {
+  margin: 0 0 0.5em;
+  font-family: $monospace;
+  font-size: 0.72em;
+  color: $muted-text-color;
+}
+
+.post-card__excerpt {
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.5;
+  color: $text-color;
+}
+
+// =============================================================================
 // Talks timeline — used on /talks/ (markup in _pages/talks.md, data in
 // _data/talks.yml). A single vertical wine-accent line with a dot per talk and
 // a larger marker per year.
