@@ -234,11 +234,26 @@ $article-image-max: 720px;
   max-width: $article-image-max;
 }
 
+// The cover sits above the sidebar + content row (it's a sibling of .page, not
+// inside it), so by default it starts at the page's left edge. Offset it by the
+// sidebar width at MM's breakpoints so it lines up with the article text.
 .page__hero {
   max-width: $article-image-max;
   margin-top: 2em;
   margin-left: 0;
   margin-right: auto;
+}
+
+@media (min-width: 64em) {
+  .page__hero {
+    margin-left: 200px;
+  }
+}
+
+@media (min-width: 80em) {
+  .page__hero {
+    margin-left: 300px;
+  }
 }
 
 // Cap the cover image itself too, so it can never overflow regardless of its
