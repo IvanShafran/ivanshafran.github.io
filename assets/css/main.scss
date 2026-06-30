@@ -216,3 +216,27 @@ $link-color-visited: #b8636e;
   background: rgba(239, 159, 39, 0.18);
   color: #f0c178;
 }
+
+// =============================================================================
+// Article images — keep the cover banner and inline images within a comfortable
+// reading width (Medium-style) and centered, instead of stretching across the
+// whole content column. `min(100%, …)` keeps them inside narrow screens too;
+// `width: auto` avoids upscaling images smaller than the cap.
+// =============================================================================
+
+$article-image-max: 720px;
+
+.page__hero {
+  max-width: unquote("min(100%, #{$article-image-max})");
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__content img:not(.emoji) {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: unquote("min(100%, #{$article-image-max})");
+  margin-left: auto;
+  margin-right: auto;
+}
