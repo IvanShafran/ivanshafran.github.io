@@ -234,6 +234,7 @@ $article-image-max: 720px;
 
 .page__hero {
   max-width: unquote("min(100%, #{$article-image-max})");
+  margin-top: 2em;
   margin-left: 0;
   margin-right: auto;
 }
