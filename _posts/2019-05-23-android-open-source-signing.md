@@ -1,3 +1,10 @@
+---
+header:
+  image: /assets/images/posts/android-open-source-signing.jpg
+  teaser: /assets/images/posts/android-open-source-signing.jpg
+  caption: "Photo by [James Sutton](https://unsplash.com/@jamessutton_photography) on [Unsplash](https://unsplash.com)"
+---
+
 Simple config to hide signing keystore but allowing to build release variant for contributors. Useful for open source Apps and pet projects.
 
 

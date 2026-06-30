@@ -1,3 +1,10 @@
+---
+header:
+  image: /assets/images/posts/improve-android-unit-tests.jpg
+  teaser: /assets/images/posts/improve-android-unit-tests.jpg
+  caption: "Photo by [Rima Kruciene](https://unsplash.com/@rimakruciene) on [Unsplash](https://unsplash.com)"
+---
+
 Improve Android unit tests with shared preferences mock library
 Shared preferences mock is the lightweight library let you increase coverage of unit tests and simplify code for them with one line of code
 

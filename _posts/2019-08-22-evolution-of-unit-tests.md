@@ -1,3 +1,10 @@
+---
+header:
+  image: /assets/images/posts/evolution-of-unit-tests.jpg
+  teaser: /assets/images/posts/evolution-of-unit-tests.jpg
+  caption: "Photo by [Jukan Tateisi](https://unsplash.com/@tateisimikito) on [Unsplash](https://unsplash.com)"
+---
+
 In the article we take a look at the unit test evolution from beginner to pro-level. “Rate us” dialog is a popular feature, and it will be a good example. Typical “rate us” dialog has requirements like:
 
 - Should be shown after some condition or user action
