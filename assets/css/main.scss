@@ -234,30 +234,13 @@ $article-image-max: 720px;
   max-width: $article-image-max;
 }
 
-// The cover sits above the sidebar + content row (it's a sibling of .page, not
-// inside it), so by default it starts at the page's left edge. Offset it by the
-// sidebar width at MM's breakpoints so it lines up with the article text.
+// The cover is rendered inside the article column (see _layouts/single.html),
+// so it lines up with the text on its own and only needs the width cap. The
+// theme already gives it a bottom margin; the column handles the top spacing.
 .page__hero {
   max-width: $article-image-max;
-  margin-top: 2em;
-  margin-left: 0;
-  margin-right: auto;
 }
 
-@media (min-width: 64em) {
-  .page__hero {
-    margin-left: 200px;
-  }
-}
-
-@media (min-width: 80em) {
-  .page__hero {
-    margin-left: 300px;
-  }
-}
-
-// Cap the cover image itself too, so it can never overflow regardless of its
-// container's width.
 .page__hero-image {
   max-width: 100%;
 }
