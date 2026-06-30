@@ -1,6 +1,9 @@
 ---
 title: "Fragment: getContext vs requireContext"
 date: 2018-08-26T12:00:00-04:00
+header:
+  image: /assets/images/posts/fragment-require-context.svg
+  teaser: /assets/images/posts/fragment-require-context.svg
 tags:
   - Kotlin
   - Java

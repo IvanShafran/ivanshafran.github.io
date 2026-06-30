@@ -1,4 +1,5 @@
 ---
+title: "Android open source app secure build"
 header:
   image: /assets/images/posts/android-open-source-signing.jpg
   teaser: /assets/images/posts/android-open-source-signing.jpg

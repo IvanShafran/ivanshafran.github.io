@@ -1,6 +1,9 @@
 ---
 title: "Kotlin for Interviews"
 date: 2025-04-30T12:00:00-04:00
+header:
+  image: /assets/images/posts/kotlin-for-interviews.svg
+  teaser: /assets/images/posts/kotlin-for-interviews.svg
 tags:
   - Kotlin
   - Interviews

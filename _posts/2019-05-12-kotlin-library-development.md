@@ -1,11 +1,11 @@
 ---
+title: "Kotlin library development for Android/Java hints"
 header:
   image: /assets/images/posts/kotlin-library-development.jpg
   teaser: /assets/images/posts/kotlin-library-development.jpg
   caption: "Photo by [Iñaki del Olmo](https://unsplash.com/@inakihxz) on [Unsplash](https://unsplash.com)"
 ---
 
-Kotlin library development for Android/Java hints
 Notices about forward/backward compatibility between Kotlin versions and good support of pure Java projects.
 
 ## Kotlin versions support
