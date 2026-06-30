@@ -226,9 +226,15 @@ $link-color-visited: #b8636e;
 
 $article-image-max: 720px;
 
+// Narrow the whole reading column (text + cover) to one Medium-like measure so
+// the body text and images share the same width.
+.page__content {
+  max-width: $article-image-max;
+}
+
 .page__hero {
   max-width: unquote("min(100%, #{$article-image-max})");
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
 }
 
