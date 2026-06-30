@@ -227,23 +227,31 @@ $link-color-visited: #b8636e;
 $article-image-max: 720px;
 
 // Narrow the whole reading column (text + cover) to one Medium-like measure so
-// the body text and images share the same width.
+// the body text and images share the same width. A plain `max-width` on a block
+// is already responsive (it shrinks below the cap on narrow screens), so no
+// `min()` is needed.
 .page__content {
   max-width: $article-image-max;
 }
 
 .page__hero {
-  max-width: unquote("min(100%, #{$article-image-max})");
+  max-width: $article-image-max;
   margin-top: 2em;
   margin-left: 0;
   margin-right: auto;
+}
+
+// Cap the cover image itself too, so it can never overflow regardless of its
+// container's width.
+.page__hero-image {
+  max-width: 100%;
 }
 
 .page__content img:not(.emoji) {
   display: block;
   width: auto;
   height: auto;
-  max-width: unquote("min(100%, #{$article-image-max})");
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
