@@ -218,18 +218,16 @@ $link-color-visited: #b8636e;
 }
 
 // =============================================================================
-// Article images — keep the cover banner and inline images within a comfortable
-// reading width (Medium-style) and centered, instead of stretching across the
-// whole content column. `min(100%, …)` keeps them inside narrow screens too;
-// `width: auto` avoids upscaling images smaller than the cap.
+// Article images — keep the cover and inline images within a comfortable
+// reading width (Medium-style) instead of stretching across the whole content
+// column. A plain `max-width` on a block is already responsive (it shrinks
+// below the cap on narrow screens), and `width: auto` avoids upscaling images
+// smaller than the cap.
 // =============================================================================
 
 $article-image-max: 720px;
 
-// Narrow the whole reading column (text + cover) to one Medium-like measure so
-// the body text and images share the same width. A plain `max-width` on a block
-// is already responsive (it shrinks below the cap on narrow screens), so no
-// `min()` is needed.
+// Narrow the reading column so the body text and images share the same width.
 .page__content {
   max-width: $article-image-max;
 }
